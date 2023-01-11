@@ -1,0 +1,89 @@
+body
+{
+	background-color: black;
+	color: #000
+}
+
+div
+{
+	marning: 10 px;
+	border: 1px black;
+	font-size: 100%;
+	height: 80px
+}
+
+a
+{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: ;
+}
+
+#header
+{
+	background-color: black;
+	height: 80px;
+	margin-left: 10%;
+}
+
+#main
+{
+	background-color: black;
+	height: 100px;
+	width:80%;
+	margin-left: 170px;
+}
+
+#left
+{
+	float: left;
+	width: 10%;
+	height: 100%
+	background-color: black;
+	margin-left: 3%;
+}
+
+#footer
+{
+	background-color: black;
+	height: 100px;
+	width:100%;
+}
+
+table
+{
+	color: white;
+	width: 95%;
+	background-color: #2a1d1d;
+	border-color: #800000;
+	border-style: solid;
+}
+
+aside
+{
+	position: fixed;
+	padding: 10px;
+	height: 20px;
+	top: 50px;
+	left: 15px;
+	display: grid;
+}
+
+.img
+{
+	background: url("заголовок.jpg") no-repeat;
+	height: 100px;
+	width: 100px;
+}
+
+.img:hover 
+{
+	background: url("портал.jpg") no-repeat;
+	height: 100px;
+	width: 100px;
+}
